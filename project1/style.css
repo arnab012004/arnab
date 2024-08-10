@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+
+}
+
+#nav {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+#nav-part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav h3 {
+    font-size: 16px;
+    border: 1.5px solid;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+#nav i {
+    font-size: 16px;
+    border: 1.5px solid;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+#nav-part2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#b1 {
+    font-size: 17px;
+    padding: 5px 5px;
+    border: 1.5px solid;
+    border-radius: 50px;
+    background-color: darkgrey;
+    color: white;
+    border: none;
+}
+
+#b2 {
+    font-size: 17px;
+    padding: 5px 5px;
+    border: 1.5px solid;
+    border-radius: 50px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+#o {
+    font-size: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20%;
+}
+
+#img1 {
+    transform: translate(-50%, -50%) rotate(30deg);
+}
+
+#img2 {
+    transform: translate(-50%, -50%) rotate(20deg);
+}
+
+#img3 {
+    transform: translate(-50%, -50%) rotate(10deg);
+}
+
+#down {
+    font-size: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#down2 {
+    font-size: 15px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#bow {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    font-size: 30px;
+    ;
+}
+
+#main2 {
+    display: flex;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    border: solid;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: aqua;
+    border: none;
+
+
+
+}
