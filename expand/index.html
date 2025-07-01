@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For My Love</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Floating hearts -->
+  <div class="hearts"></div>
+
+  <!-- Message Box -->
+  <div class="message-box">
+    <h1>Hey Love 💕</h1>
+    <p id="main-msg">You make my world beautiful.<br>I’m so happy to have you. 💖</p>
+    <button onclick="showMoreLove()">Show More Love 💌</button>
+    <p id="extra-msg" style="display: none; margin-top: 20px;">I feel lucky every day to have you. You’re my sunshine. ☀️</p>
+  </div>
+
+  <!-- Background Music -->
+  <audio autoplay loop>
+    <source src="https://youtu.be/8MhLnPDVFfA?list=RD8MhLnPDVFfA">
+    Your browser does not support the audio element.
+  
+
+  <!-- Script -->
+  <script>
+    function showMoreLove() {
+      document.getElementById('extra-msg').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
